@@ -1,0 +1,172 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.App{
+  background-color: #282c34;
+}
+.routers{
+  color:white;
+}
+
+.logo {
+  height: 4vmin;
+  background-color: white;
+  color: black;
+  border-radius: 1vmin;
+  padding:1vmin;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar {
+  
+  padding:2vmin;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+  justify-content:space-between;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.codeon{
+  font-size: 3vmin;
+  font-family: cursive;
+}
+
+.content {
+  background-color: #373a3f;
+  min-height: 73.3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 5vmin;
+  
+}
+
+.movienamebox{
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+}
+.namebox{
+  height: 6vmin;
+  width:30vmin;
+  border-radius: 2vmin;
+  background-color: white;
+  padding:0.5vmin;
+  font-family: cursive;
+  font-size: calc(5px + 2vmin);
+}
+
+.moviereviewbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:5vmin;
+  
+}
+
+.reviewbox{
+  height: 10vmin;
+  width:40vmin;
+  border-radius: 2vmin;
+  background-color: white;
+  padding:2vmin;
+  font-family: cursive;
+  font-size: calc(5px + 2vmin);
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vmin;
+  border-radius: 2vmin;
+  background-color: rgb(70, 192, 70);
+  font-size: calc(10px + 2vmin);
+  font-family: cursive;
+  color:white;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+  margin:2vmin;
+}
+
+.moviesList{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row-reverse;
+  justify-content: center;
+  align-items: center;
+  min-height: 72.1vh;
+  padding: 1vmin;
+  background-color: #373a3f;
+  margin-left: 5vmin;
+  margin-right:5vmin;
+ font-family:cursive;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border:solid 0.5vmin;
+  border-radius: 2vmin;
+  border-color:white;
+  background-color:#282c34;
+  margin:2vmin;
+  padding:2vmin;
+}
+.update_delete_div{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#updateInput{
+  width:20vmin;
+  height:6vmin;
+  border-radius: 1vmin;
+}
+.card_reviews{
+  font-size: 3.5vmin;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.home{
+  background-color: #373a3f;
+  min-height: 73.3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  margin: 5vmin;
+}
+.home_text{
+  margin:5vmin;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vmin;
+  background-color: #282c34;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
